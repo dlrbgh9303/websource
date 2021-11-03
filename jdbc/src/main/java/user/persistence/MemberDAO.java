@@ -77,6 +77,33 @@ public class MemberDAO {
 	
 	}
 	//delete
+	public boolean delete(String userid, String password) {
+		boolean deleteFlag = false;
+		PreparedStatement pstmt = null;
+		try {
+			String sql = "delete from member where userid=? and password = ?";
+			pstmt = con.prepareStatement(sql);
+			pstmt.setString(1, userid);
+			pstmt.setString(2, password);
+			
+			int result = pstmt.executeUpdate();
+			if (result>0) {
+				deleteFlag=true;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			close(pstmt);
+		}
+		return deleteFlag;
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	//select - 개별조회
 	public MemberDTO getRow(MemberDTO dto) {
