@@ -1,4 +1,4 @@
-<%@page import="user.domain.MemberDTO"%>
+<%@page import="book.domain.MemberDTO"%>
 <%@page import="java.util.List"%>
 <%@page import="user.persistence.JdbcUtil"%>
 <%@page import="user.persistence.MemberDAO"%>

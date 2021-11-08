@@ -1,7 +1,7 @@
 <%@page import="user.persistence.MemberDAO"%>
 <%@page import="user.persistence.JdbcUtil"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="user.domain.MemberDTO"%>
+<%@page import="book.domain.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%

@@ -20,5 +20,5 @@ update MEMBER set password = '변경비밀번호';
 
 update MEMBER set password = '변경비밀번호' where userid ='아이디' and password='현재비밀번호';
 
-
+select * from member;
 
