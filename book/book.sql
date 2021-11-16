@@ -12,6 +12,9 @@ insert into bookTBL values('1004','자바 1000제','김용만',26000);
 insert into bookTBL values('1005','spring','이민호',34000);
 
 
+
+select * from BOOKTBL;
+
 -----code 검색
 
 ----- = : 정확하게 일치

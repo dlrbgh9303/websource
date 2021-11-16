@@ -3,6 +3,7 @@ package member.controller;
 import java.security.PublicKey;
 
 import member.action.Action;
+import member.action.JoinAction;
 import member.action.LeaveAction;
 import member.action.LoginAction;
 import member.action.LogoutAction;
@@ -32,7 +33,9 @@ public class MemberActionFactory {
 			}else if(cmd.equals("/leave.do")) {
 				action = new LeaveAction("/index.jsp");
 			}else if(cmd.equals("/modify.do")) {
-				action = new ModifyAction("/index.jsp");
+				action = new ModifyAction("/view/loginForm.jsp");
+			}else if(cmd.equals("/join.do")) {
+				action = new JoinAction("/view/loginForm.jsp");	
 			
 			
 		}

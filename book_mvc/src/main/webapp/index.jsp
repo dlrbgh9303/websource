@@ -24,8 +24,8 @@
 	<div class="row">
   <div class="col-4">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action" id="list-insert-list" data-toggle="list" href="#insert" role="tab" aria-controls="insert">도서정보입력</a>
-      <a class="list-group-item list-group-item-action active" id="list-all-list" data-toggle="list" href="#all" role="tab" aria-controls="all">도서목록보기</a>
+      <a class="list-group-item list-group-item-action active" id="list-insert-list" data-toggle="list" href="#insert" role="tab" aria-controls="insert">도서정보입력</a>
+      <a class="list-group-item list-group-item-action" id="list-all-list" data-toggle="list" href="#all" role="tab" aria-controls="all">도서목록보기</a>
       <a class="list-group-item list-group-item-action" id="list-delete-list" data-toggle="list" href="#delete" role="tab" aria-controls="delete">도서정보삭제</a>
       <a class="list-group-item list-group-item-action" id="list-modify-list" data-toggle="list" href="#modify" role="tab" aria-controls="modify">도서정보수정</a>
       <a class="list-group-item list-group-item-action" id="list-search-list" data-toggle="list" href="#search" role="tab" aria-controls="search">도서정보검색</a>
